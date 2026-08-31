@@ -8,6 +8,6 @@ function signToken(user) {
   );
 }
 
-module.export = {
+module.exports = {
   signToken
 };

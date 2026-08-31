@@ -10,10 +10,12 @@ const errorHandler = require("./middleware/errorHandler");
 const app = express();
 
 app.use(morgan("dev"));
+app.use(express.json());
 
 app.use("/api/loginn", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/users", adminRoutes);
+
 
 app.get("/", (req, res) => {
   res.status(200).json({
