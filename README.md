@@ -48,3 +48,4 @@ npm run dev
 - docs/REGISTRO_ERRORES_TEMPLATE.md
 
 "# OperacionRescate_DAI_2026" 
+"# OperacionRescate_DAI_2026" 
